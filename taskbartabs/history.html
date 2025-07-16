@@ -1,9 +1,10 @@
 <!doctype html>
+<meta rel="manifest" href="history.manifest.json" />
 <p>Now on <code id="path">/</code></p>
 <script>
 let phase = false;
 function swap() {
-	const dest = phase ? "/first/path" : "/second/path";
+	const dest = phase ? "/taskbartabs/history/first/path" : "/second/path";
 	history.replaceState({}, "", dest);
 	document.getElementById("path").textContent = dest;
 	phase = !phase;

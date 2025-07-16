@@ -10,5 +10,5 @@ function swap() {
 	phase = !phase;
 }
 
-setTimeout(()=>setInterval(swap, 250), 5000);
+if (!location.search.contains("keep")) setTimeout(()=>setInterval(swap, 250), 1000);
 </script>

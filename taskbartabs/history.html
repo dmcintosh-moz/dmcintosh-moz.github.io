@@ -1,0 +1,13 @@
+<!doctype html>
+<p>Now on <code id="path">/</code></p>
+<script>
+let phase = false;
+function swap() {
+	const dest = phase ? "/first/path" : "/second/path";
+	history.replaceState({}, "", dest);
+	document.getElementById("path").textContent = dest;
+	phase = !phase;
+}
+
+setInterval(swap, 250);
+</script>

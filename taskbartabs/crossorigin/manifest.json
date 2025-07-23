@@ -1,12 +1,12 @@
 {
-  "name": "History",
+  "name": "Crossorigin",
   "icons": [
     {
-      "src": "clock.svg",
-	  "sizes": "192x192 512x512"
+      "src": "icon.svg",
+      "sizes": "192x192 512x512"
     }
   ],
-  "start_url": "/taskbartabs/history/",
-  "scope": "/taskbartabs/history/",
+  "start_url": "/taskbartabs/crossorigin/",
+  "scope": "/taskbartabs/crossorigin/",
   "display": "minimal-ui"
 }

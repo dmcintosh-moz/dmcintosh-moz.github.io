@@ -1,5 +1,5 @@
 <!doctype html>
-<link rel="manifest" href="history.manifest.json" />
+<link rel="manifest" href="manifest.json" />
 <p>Now on <code id="path">/</code></p>
 <a href="/taskbartabs/history/">go</a>
 <a href="/taskbartabs/history/?keep">stop</a>
@@ -12,5 +12,5 @@ function swap() {
 	phase = !phase;
 }
 
-if (!location.search.contains("keep")) setTimeout(()=>setInterval(swap, 250), 1000);
+if (location.search.indexOf("keep") === -1) setTimeout(()=>setInterval(swap, 250), 1000);
 </script>

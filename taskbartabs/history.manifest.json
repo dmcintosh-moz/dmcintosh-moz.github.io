@@ -1,5 +1,5 @@
 {
   "name": "History",
-  "start_url": "/taskbartabs/history",
+  "start_url": "/taskbartabs/history/",
   "scope": "/taskbartabs/history/"
 }

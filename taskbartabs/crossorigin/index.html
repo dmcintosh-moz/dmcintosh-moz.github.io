@@ -1,0 +1,13 @@
+<!doctype html>
+<link rel="manifest" href="manifest.json" />
+<p>Now on <code>dmcintosh-moz.github.io</code></p>
+<a href="/taskbartabs/crossorigin/">go</a>
+<a href="/taskbartabs/crossorigin/?keep">stop</a>
+<script>
+let phase = false;
+function swap() {
+  location.href = "https://dmcintosh-moz-crossorigin.github.io/";
+}
+
+if (location.search.indexOf("keep") === -1) setTimeout(()=>setInterval(swap, 250), 1000);
+</script>

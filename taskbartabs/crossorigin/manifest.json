@@ -1,0 +1,12 @@
+{
+  "name": "History",
+  "icons": [
+    {
+      "src": "clock.svg",
+	  "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/taskbartabs/history/",
+  "scope": "/taskbartabs/history/",
+  "display": "minimal-ui"
+}

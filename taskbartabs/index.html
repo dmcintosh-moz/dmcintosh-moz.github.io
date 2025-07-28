@@ -1,0 +1,41 @@
+<!doctype html>
+<style>
+.wam:after {
+  background: oklch(0.4 0.075 191);
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 65%;
+  font-family: system-ui;
+  margin-left: 4px;
+  content: "webapp";
+}
+</style>
+<h1>Taskbar Tabs Demos</h1>
+<p>
+This page contains demos that can be used to test
+<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1915736">Taskbar Tabs</a>,
+a Firefox experiment. They might or might not
+work in browsers that support Web App Manifest installation (e.g. Chromium-based browsers).
+
+<section>
+  <h2>Favicons</h2>
+  <dl>
+    <dt><a href="bigicon">bigicon</a></dt>
+    <dd>2048x2048 PNG favicon</dd>
+    <dt><a href="svgicon">svgicon</a></dt>
+    <dd>8192x8192 SVG favicon</dd>
+    <dt><a href="svgicon-smol">svgicon-smol</a></dt>
+    <dd>16x16 SVG favicon</dd>
+  </dl>
+</section>
+<section>
+  <h2>Navigation</h2>
+  <dl>
+    <dt class="wam"><a href="history">history</a></dt>
+    <dd>Navigates to and from a page with <code>history.replaceState</code> (same-origin)</dd>
+    <dt class="wam"><a href="crossorigin">crossorigin</a></dt>
+    <dd>Navigates to and from a different origin</dd>
+  </dl>
+</section>
+

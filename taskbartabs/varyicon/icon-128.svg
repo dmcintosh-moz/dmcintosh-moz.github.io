@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg width="
+128" height="128" viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg">
+  <!-- I wanted to use HSL or okLCH, but Inkscape doesn_t support them?!? -->
+  <rect width="1" height="1" fill="rgb(39.3093347942189, 140, 220.292826944222)" /><!-- fill="hsl(deg, 100%, 50%)" />-->
+  <text x="0" y="1" style="font-family: sans-serif; font-size: 0.125px;">128x128</text>
+</svg>
+

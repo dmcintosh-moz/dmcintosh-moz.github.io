@@ -1,0 +1,44 @@
+﻿{
+  "scope": "/taskbartabs/varyicon",
+  "name": "Varyicon",
+  "start_url": "/taskbartabs/varyicon",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "sizes": "16x16",
+      "src": "icon-16.png"
+    },
+    {
+      "sizes": "32x32",
+      "src": "icon-32.png"
+    },
+    {
+      "sizes": "64x64",
+      "src": "icon-64.png"
+    },
+    {
+      "sizes": "128x128",
+      "src": "icon-128.png"
+    },
+    {
+      "sizes": "196x196",
+      "src": "icon-196.png"
+    },
+    {
+      "sizes": "256x256",
+      "src": "icon-256.png"
+    },
+    {
+      "sizes": "384x384",
+      "src": "icon-384.png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "icon-512.png"
+    },
+    {
+      "sizes": "1024x1024",
+      "src": "icon-1024.png"
+    }
+  ]
+}

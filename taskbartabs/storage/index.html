@@ -1,0 +1,27 @@
+<!doctype html>
+<style>
+:root { color-scheme: light dark; font-family: sans-serif; }
+#label { font-size: 180%; }
+#input { font-size: 200%; }
+#updated { color: black; background: lightgreen; border-radius: 10px; padding: 4px; visibility: hidden; }
+</style>
+<h1>Storage</h1>
+<label for="input" id="label">Text to store: </label>
+<input id="input"><span id="updated">updated!</span>
+<p>The text will be remembered in local storage.</p>
+<script>
+  function start() {
+    document.getElementById("input").value = localStorage.getItem("input") ?? "";
+  }
+
+  if (document.readyState === "interactive") {
+    start();
+  } else {
+    document.addEventListener("DOMContentLoaded", start);
+  }
+
+  document.getElementById("input").addEventListener("change", function(e) {
+    localStorage.setItem("input", e.target.value);
+    document.getElementById("updated").style.visibility = "unset";
+  });
+</script>

@@ -1,0 +1,16 @@
+﻿{
+  "scope": "/taskbartabs/fauxicon",
+  "name": "Fauxicon",
+  "start_url": "/taskbartabs/fauxicon",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "does-not-exist-1.png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "does-not-exist-2.png"
+    }
+  ]
+}

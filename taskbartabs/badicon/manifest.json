@@ -1,0 +1,16 @@
+﻿{
+  "scope": "/taskbartabs/badicon",
+  "name": "Badicon",
+  "start_url": "/taskbartabs/badicon",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "badicon.png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "badicon.png"
+    }
+  ]
+}

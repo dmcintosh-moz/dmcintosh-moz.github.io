@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<style>
+body {
+  margin-left: 400px;
+  width: 768px;
+}
+
+#outer {
+  /* originally 4px, just must be nonzero I think */
+  border-radius: 0.01px;
+  margin-top: 200px;
+}
+
+#inner {
+  /* angles less than 350deg appears to be correct */
+  /* this scale appears to be the highest value that is incorrect */
+  transform: rotate(350deg) scale(1.75161);
+  height: 300px;
+  width: 600px;
+  background: #0f0;
+}
+
+#inner:hover { background: #0ff; }
+
+.clip { overflow: clip; }
+
+/* also: if #outer or #inner have a border, the output appears correct */
+</style>
+<main>
+<style>
+</style>
+<div id="outer" class="clip">
+<div id="inner">
+</div>
+</div>
+<script>setInterval(() => document.getElementById("outer").classList.toggle("clip"), 1000);</script>

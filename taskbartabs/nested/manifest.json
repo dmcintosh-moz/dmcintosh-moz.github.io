@@ -1,0 +1,12 @@
+{
+  "name": "Nested Demo: Outer",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/taskbartabs/nested/",
+  "scope": "/taskbartabs/nested/",
+  "display": "minimal-ui"
+}

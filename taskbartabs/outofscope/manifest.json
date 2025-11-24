@@ -1,0 +1,12 @@
+{
+  "name": "OutOfScope",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/taskbartabs/outofscope/scope/",
+  "scope": "/taskbartabs/outofscope/scope/",
+  "display": "minimal-ui"
+}

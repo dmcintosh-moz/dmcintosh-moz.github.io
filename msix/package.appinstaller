@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller xmlns="http://schemas.microsoft.com/appx/appinstaller/2021"
+  Version="1.0.0.0"
+  Uri="https://dmcintosh-moz.github.io/msix/package.appinstaller">
+  <MainPackage
+    Name="Mozilla.MozillaFirefoxNightly"
+    Version="152.2605.508.0"
+    Publisher="CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US"
+    ProcessorArchitecture="x64"
+    Uri="https://releases.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-152.0a1.multi.win64.installer.msix" />
+</AppInstaller>
+
